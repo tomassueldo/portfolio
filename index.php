@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/cv.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
 </head>
@@ -30,25 +31,25 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link me-5 active" href="index.html">Inicio</a>
+                            <a class="nav-link me-5 active" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-5" href="sobre-mi.html">Sobre mi</a>
+                            <a class="nav-link me-5" href="sobre-mi.php">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link me-5" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link me-5" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <form class="d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">ES</a>
+                                <a class="nav-link" href="index.php">ES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="en/home.html">EN</a>
+                                <a class="nav-link" href="en/home.php">EN</a>
                             </li>
                         </ul>
                     </form>
@@ -65,30 +66,37 @@
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 mt-5 offset-sm-3 text-center">
-                    <p>Hola! <br> Bienvenido a mi sitio web!</p>
+                    <p>Hola!
+                        <br>
+                        Bienvenido a mi sitio web
+                        <br>
+                        Tomas Sueldo
+                    </p>
                 </div>
                 <div class="col-12 text-center">
-                    <a href="proyectos.html" class="boton"> Mis proyectos!</a>
+                    <a href="proyectos.php" class="boton"> Mis proyectos!</a>
                 </div>
             </div>
         </div>
     </main>
 
 
-    <footer class="footer mt-auto py-3 pb-5">
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-3">
+            <div class="row p-sm-5 pt-4">
+                <div class="col-12 col-sm-4 text-center">
+                    Sponsor <a href="https://depcsuite.com/?v=d72a48a8ebd2" target="_blank">
+                    <br>
+                    DePC Suite</a>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
                     <a href="https://github.com/tomassueldo" target="_blank" title="Github"><i
                             class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/tomas-sueldo-/" target="_blank" title="Linkedin"><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
-                <div class="col-12 col-sm-3">
-                    Sponsor <a href="https://depcsuite.com/?v=d72a48a8ebd2" target="_blank">DePC Suite</a>
-                </div>
-                <div class="col-12 col-sm-3">
-                    <a href="mailto:tomassueldo17@gmail.com">tomassueldo17@gmail.com </a>
+                <div class="col-12 col-sm-4 text-center">
+                    <a href="mailto:tomassueldo17@gmail.com">tomassueldo17@gmail.com</a>
                 </div>
             </div>
         </div>
