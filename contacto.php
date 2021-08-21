@@ -35,7 +35,7 @@ $pg = "contacto";
             <div class="row">
                 <div class="col-12 col-sm-6 d-none d-sm-block">
                     <p>Te invito a que te contactes enviandome un mensaje o bien por whatsapp.</p>
-                    <p>A continuacion dejo el codigo qr para que escanees con tu celu!</p>
+                    <p>A continuacion dejo el codigo QR de mi WhatsApp para que escanees con tu celular y puedas escribirme directamente!</p>
                     <img src="images/iconos development/png/wsp100.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-6">

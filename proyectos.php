@@ -36,7 +36,7 @@ $pg = "proyectos";
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p>Los siguientes son algunos de los proyectos que he realizado</p>
+                    <p>Los siguientes son algunos de los proyectos que he realizado:</p>
                 </div>
             </div>
             <div class="row bloque">
@@ -72,7 +72,7 @@ $pg = "proyectos";
                         </div>
 
                         <div class="col-12 pt-2">
-                            <p>Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos</p>
+                            <p>Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                         </div>
 
                         <div class="col-6 my-5" >
