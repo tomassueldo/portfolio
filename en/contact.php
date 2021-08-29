@@ -1,6 +1,38 @@
 <?php
 
+
+
 $pg = "contacto";
+
+
+if($_POST){
+    $nombre = $_REQUEST["txtNombre"];
+    $correo = $_REQUEST["txtCorreo"];
+    $telefono = $_REQUEST["txtTelefono"];
+    $mensajeUsuario = $_REQUEST["txtMensaje"];
+
+    // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+    // Cabeceras adicionales
+    $cabeceras .= 'To: tomassueldo@gmail.com' . "\r\n";
+    $cabeceras .= 'From: Admin <info@tomassueldo.com>' . "\r\n";
+
+    $para = "tomassueldo@gmail.com";
+    $asunto = "Se contactaron contigo desde tu sitio web";
+    $mensaje = "
+    Nombre : $nombre <br>
+    Correo : $correo <br>
+    Telefono : $telefono <br>
+    Mensaje : <br> $mensajeUsuario <br>
+    ";
+
+    // Enviarlo
+    mail($para, $asunto, $mensaje, $cabeceras);
+    header("Location: confirmation.php");
+
+}
 
 ?>
 
