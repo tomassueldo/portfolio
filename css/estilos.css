@@ -253,6 +253,10 @@ footer .fa-linkedin-in {
     height: 90px;
 }
 
+.pTexto {
+    display: block;
+}
+
 
 @media(max-width: 750px) {
     
